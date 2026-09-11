@@ -1,0 +1,155 @@
+{
+  "portfolio_link": "example.com",
+  "summary": "Product designer who ships end to end, from research through production front-end. Five years across civic tech, logistics, and consumer mobile, most recently rebuilding a scheduling flow used by 40,000 monthly clinic visitors.",
+
+  "experience": [
+    {
+      "company": "Northgate Health Network",
+      "title": "Product Designer",
+      "dates": "Mar 2023 -- Present",
+      "location": "Seattle, WA",
+      "notes": "Owns the patient-facing scheduling product. Rebuilt the appointment booking flow after call-center logs showed most calls were reschedules people had tried and failed to do online. Ran 14 moderated sessions with patients over 65, who were the group abandoning most often. Built the component library in Figma and shipped the React implementation with two engineers. Booking abandonment fell from 46% to 19% over two quarters; call volume for reschedules dropped by roughly a third. Also runs the accessibility audit process (WCAG 2.2 AA) across four products.",
+      "bullets": [
+        "Rebuilt the patient appointment flow around evidence from 14 moderated sessions, cutting booking abandonment from 46% to 19% in two quarters.",
+        "Shipped a 40-component design system in Figma and React, adopted by four product teams and cutting new-screen build time from days to hours.",
+        "Ran WCAG 2.2 AA audits across four products and drove remediation of 63 issues, including the keyboard traps blocking screen-reader users at checkout."
+      ]
+    },
+    {
+      "company": "Cascade Freight",
+      "title": "UX Designer",
+      "dates": "Jun 2021 -- Feb 2023",
+      "location": "Portland, OR",
+      "notes": "Dispatcher-facing logistics console. Dispatchers were managing 60-90 active loads on a screen designed for 12. Did contextual inquiry in two terminals, riding along for full shifts. Redesigned the load board around scanning rather than reading. Time to assign a load went from 3.5 minutes to 50 seconds in usability testing with 9 dispatchers. Built an internal prototype in Vue to test the interaction before engineering committed.",
+      "bullets": [
+        "Redesigned the dispatcher load board after two terminal-floor contextual inquiries, cutting median load assignment from 3.5 minutes to 50 seconds in testing with 9 dispatchers.",
+        "Prototyped the interaction model in Vue so the scan-first layout could be validated before engineering committed a quarter to it.",
+        "Established the team's first usability testing cadence, moving release decisions from stakeholder opinion to session evidence."
+      ]
+    },
+    {
+      "company": "Civic Signal",
+      "title": "Design Researcher",
+      "dates": "Aug 2020 -- May 2021",
+      "location": "Remote",
+      "notes": "Nonprofit studying how residents find city services. Ran a diary study with 22 households across three cities and synthesized it into a service blueprint the city later used to reorganize its help pages. Also designed the report itself, which was published publicly.",
+      "bullets": [
+        "Ran a 22-household diary study across three cities and synthesized it into a service blueprint that a city government used to reorganize its help pages.",
+        "Designed and produced the 48-page public research report, from data visualization through print-ready layout."
+      ]
+    },
+    {
+      "company": "Mercer Studio",
+      "title": "Junior Designer",
+      "dates": "Jul 2019 -- Jul 2020",
+      "location": "Portland, OR",
+      "notes": "Small brand and web studio. Identity systems, marketing sites, motion for social. Built about a dozen WordPress and Webflow sites for local businesses. Learned production typography here.",
+      "bullets": [
+        "Designed identity systems and marketing sites for 11 small-business clients, taking each from concept through launch.",
+        "Produced social motion assets in After Effects, cutting the studio's per-campaign turnaround from five days to two."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Transit Arrival Board",
+      "link": "https://example.com/transit",
+      "short_link": "example.com/transit",
+      "notes": "A public-transit arrival display for riders with low vision, built as a self-directed project after watching relatives squint at the real one. High-contrast, one arrival per screen, audio announcement. Tested with 6 riders at a real stop over two weeks. Metro's own board shows 12 rows at 14px; the redesign shows 3 at 40px with a 20-second rotation. Built with React and the agency's public GTFS feed.",
+      "bullets": [
+        "Designed and built a high-contrast transit arrival display for riders with low vision, tested with 6 riders at a live stop over two weeks.",
+        "Consumed the agency's public GTFS feed in React, rotating three arrivals at 40px where the official board shows twelve at 14px."
+      ]
+    },
+    {
+      "title": "Pantry, a household inventory app",
+      "link": "https://example.com/pantry",
+      "short_link": "example.com/pantry",
+      "notes": "Concept app for tracking what is in the fridge and what expires next. Explored barcode scanning versus photo recognition versus manual entry; manual entry with smart defaults tested fastest, which was the surprise. Figma prototype tested with 8 people. Never shipped, no users, no revenue.",
+      "bullets": [
+        "Tested three input models for a household inventory app with 8 participants, finding manual entry with smart defaults beat barcode scanning on time to log an item.",
+        "Built the interactive prototype and interaction spec in Figma, including the empty and error states most concept work skips."
+      ]
+    },
+    {
+      "title": "Ledger, a small-business invoicing concept",
+      "notes": "Self-directed exploration of invoicing for freelancers. Interviewed 5 freelancers about payment chasing. Produced a full flow and a component set. Concept only, never built, no customers.",
+      "bullets": [
+        "Interviewed 5 freelancers on payment chasing and turned the findings into an invoicing flow that front-loads the follow-up schedule.",
+        "Produced the full component set and interaction spec for the concept."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Washington",
+      "degree": "B.Des. in Interaction Design",
+      "gpa": "3.8/4.0",
+      "start": "Sep 2015",
+      "end": "Jun 2019",
+      "location": "Seattle, WA"
+    }
+  ],
+
+  "skills": [
+    {
+      "label": "Research Skills",
+      "entries": [
+        "User Interviews",
+        "Contextual Inquiry",
+        "Usability Testing",
+        "Diary Studies",
+        "Affinity Mapping",
+        "Service Blueprinting",
+        "Heuristic Analysis",
+        "Survey Design"
+      ]
+    },
+    {
+      "label": "Design Skills",
+      "entries": [
+        "Figma",
+        "Design Systems",
+        "Interaction Design",
+        "Prototyping",
+        "Accessibility",
+        "WCAG 2.2",
+        "Information Architecture",
+        "Visual Design",
+        "Motion Design",
+        "After Effects",
+        "Adobe Creative Suite"
+      ]
+    },
+    {
+      "label": "Technical Skills",
+      "entries": [
+        "React",
+        "Vue",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "Git",
+        "Webflow",
+        "WordPress",
+        "SQL"
+      ]
+    }
+  ],
+  "certifications": [
+    { "name": "CPACC", "issuer": "IAAP", "date": "2024" }
+  ],
+  "awards": [
+    { "title": "Jury Award, Civic Tech Showcase", "body": "City of Seattle", "year": "2021" }
+  ],
+  "publications": [
+    { "title": "Designing the 48-page service blueprint report", "venue": "Civic Signal", "year": "2021" }
+  ],
+  "languages": [
+    { "language": "English", "proficiency": "native" },
+    { "language": "Spanish", "proficiency": "conversational" }
+  ]
+}

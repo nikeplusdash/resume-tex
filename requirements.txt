@@ -1,0 +1,10 @@
+jinja2>=3.0
+pydantic>=2.0
+questionary>=2.0    # interactive prompts (ui.py)
+rich>=13.0         # score panel + report (ui.py)
+pytest>=7.0   # tests only
+pdfplumber>=0.11   # install.py resume bootstrap (.pdf)
+python-docx>=1.1   # install.py resume bootstrap (.docx)
+requests>=2.31
+beautifulsoup4>=4.12
+prompt_toolkit>=3.0   # full-screen shell (console.py)

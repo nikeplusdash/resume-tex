@@ -1,0 +1,34 @@
+Senior Product Designer — Patient Experience
+Meridian Care Systems · Seattle, WA (hybrid, 3 days onsite)
+
+About the role
+Meridian builds the software 400 clinics use to run their front desk. We are hiring a
+Senior Product Designer to own the patient-facing side of that product: scheduling,
+intake forms, reminders, and the messaging that ties them together. Roughly 1.2 million
+patients touch these flows every month, a large share of them over 65 or on a screen
+reader, and the current experience shows its age.
+
+What you will do
+- Own the patient scheduling and intake experience end to end, from problem framing
+  through shipped interface.
+- Run generative and evaluative research directly with patients and clinic staff. We do
+  not have a separate research team; designers here talk to users themselves.
+- Extend and maintain our design system, and work in the codebase enough to specify
+  states, edge cases, and responsive behavior precisely.
+- Drive accessibility to WCAG 2.2 AA across the products you own, including audit and
+  remediation planning.
+- Partner with product managers and a squad of four engineers, and present the reasoning
+  behind your decisions to clinical stakeholders.
+
+What we are looking for
+- 5+ years designing complex, data-dense product interfaces. Healthcare, fintech, or
+  another regulated domain is a plus.
+- Demonstrated experience running your own usability testing and turning sessions into
+  shipped changes.
+- Fluency with Figma and with design systems at component-library scale.
+- Comfort reading and writing front-end code (React or similar). You will not be shipping
+  production features, but you will be reading PRs.
+- A portfolio that shows the thinking, not only the pixels.
+- Bachelor's degree in design, HCI, or equivalent practical experience.
+
+Compensation: $155,000–$185,000 plus equity.

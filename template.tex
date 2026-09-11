@@ -1,0 +1,148 @@
+\documentclass[9pt]{article}
+\usepackage[a4paper,margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{crimson}
+\pagenumbering{gobble}
+
+% No orphan/widow lines; don't stretch content to fill the page bottom
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+
+% Prevent hyphenation of words with hyphens across lines
+% \hyphenpenalty=10000
+% \exhyphenpenalty=10000
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1em}{0.5em} % {left}{before}{after}
+
+\setlist[itemize]{
+    nosep,
+    topsep=0pt,
+    partopsep=0pt,
+    labelindent=0pt,
+    % leftmargin=10pt,
+    % itemsep=0em 
+}
+% \linespread{1.05}
+
+\begin{document}
+
+% ====== Header ======
+\begin{center}
+    {\Huge \textbf{(( name ))}} \\
+    \vspace{0.5em}
+    (( location )) \ $|$ (( phone )) \ $|$ \href{mailto:(( email ))}{(( email ))} \ $|$ 
+    \href{https://(( portfolio_link ))}{(( portfolio_link ))} \  $|$
+    \href{https://(( linkedin ))}{(( linkedin ))} \
+\end{center}
+
+% ====== Summary ======
+\section*{Summary}
+(( summary ))
+
+% ====== Professional Experience ======
+\section*{Professional Experience}
+(% for job in experience %)
+(% if job.link is defined and job.link %)
+\noindent\textbf{(( job.company ))} (\href{(( job.link ))}{(( job.short_link or job.link ))}) \hfill \textbf{(( job.dates ))} \\
+(% else %)
+\noindent\textbf{(( job.company ))} \hfill \textbf{(( job.dates ))} \\
+(% endif %)
+(( job.title )) \hfill (( job.location ))
+\begin{itemize}
+(% for bullet in job.bullets %)
+    \item (( bullet ))
+(% endfor %)
+\end{itemize}
+(% if not loop.last %)
+\vspace{0.5em}
+(% endif %)
+(% endfor %)
+% ====== Selected Projects ======
+\section*{(( projects_title | default('Personal Projects') ))}
+(% for project in projects %)
+(% if project.link is defined and project.link %)
+\noindent\textbf{(( project.title ))} (\href{(( project.link ))}{(( project.short_link or project.link ))})
+(% else %)
+\noindent\textbf{(( project.title ))}
+(% endif %)
+\begin{itemize}
+(% for bullet in project.bullets %)
+    \item (( bullet ))
+(% endfor %)
+\end{itemize}
+(% if not loop.last %)
+\vspace{0.25em}
+(% endif %)
+(% endfor %)
+(% if education is defined and education %)
+% ====== Education ======
+\section*{Education}
+(% for edu in education %)
+\noindent\textbf{(( edu.institution ))} \hfill \textbf{(( edu.start )) -- (( edu.end ))} \\
+(( edu.degree )) - GPA: (( edu.gpa )) \hfill (( edu.location ))
+(% if edu.coursework is defined and edu.coursework %)
+\\
+{\textit{Relevant Coursework:} (( edu.coursework|join(', ') ))}
+(% endif %)
+(% if not loop.last %)
+
+\vspace{0.5em}
+
+(% endif %)
+(% endfor %)
+(% endif %)
+(% if certifications is defined and certifications %)
+% ====== Certifications ======
+\section*{Certifications}
+(% for c in certifications %)
+\noindent\textbf{(( c.name ))}, (( c.issuer )) \hfill (( c.date ))(% if not loop.last %) \\(% endif %)
+(% endfor %)
+(% endif %)
+(% if awards is defined and awards %)
+% ====== Awards ======
+\section*{Awards}
+(% for a in awards %)
+\noindent\textbf{(( a.title ))}, (( a.body )) \hfill (( a.year ))(% if not loop.last %) \\(% endif %)
+(% endfor %)
+(% endif %)
+(% if publications is defined and publications %)
+% ====== Publications ======
+\section*{Publications}
+(% for p in publications %)
+\noindent (( p.title )). \textit{(( p.venue ))}, (( p.year ))(% if not loop.last %) \\(% endif %)
+(% endfor %)
+(% endif %)
+% ====== Technical Skills ======
+\section*{(( skills_title | default('Skills') ))}
+(% for skill in skills %)
+(% if not loop.first %)
+
+\vspace{0.5em}
+
+\noindent(% endif %)
+\textbf{(( skill.label )):} (( skill.entries|join(', ') ))
+(% endfor %)
+(% if languages is defined and languages %)
+% ====== Languages ======
+\section*{Languages}
+\noindent(% for l in languages %)\textbf{(( l.language )) (( '(' ~ l.proficiency ~ ')' ))}(% if not loop.last %), (% endif %)(% endfor %)
+(% endif %)
+(% if recommendations is defined and recommendations %)
+% ====== Recommendations ======
+\section*{Recommendations}
+(% for rec in recommendations %)
+\noindent\textit{``(( rec.quote ))''} \\
+\noindent\textbf{(( rec.name ))} --- (( rec.title )) \textit{(( rec.relationship ))}
+(% if not loop.last %)
+
+\vspace{0.5em}
+
+(% endif %)
+(% endfor %)
+(% endif %)
+
+\end{document}

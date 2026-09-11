@@ -1,0 +1,30 @@
+{
+  "backend": "",
+
+  "name": "Alex Rivera",
+  "email": "alex.rivera@example.com",
+  "phone": "+1 555 010 4477",
+  "linkedin": "linkedin.com/in/example-alex-rivera",
+  "location": "Seattle, WA",
+
+  "portfolios": {
+    "visual": "visual.example.com",
+    "research": "example.com"
+  },
+
+  "location_rules": [
+    {
+      "match": "(?:₹|\\bINR\\b|\\bIndia\\b|\\bBengaluru\\b|\\bBangalore\\b|\\bMumbai\\b|\\bHyderabad\\b|\\bPune\\b|\\bChennai\\b|\\bDelhi\\b|\\bGurugram\\b|\\bNoida\\b)",
+      "location": "Mumbai, India"
+    }
+  ],
+
+  "solo_worker": false,
+
+  "banned_summary_anchors": [],
+
+  "skills_title": "Skills",
+
+  "doc_basename": "Alex_Rivera",
+  "output_dir": ""
+}

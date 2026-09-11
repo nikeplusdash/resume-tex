@@ -1,0 +1,41 @@
+Alex Rivera
+Seattle, WA | alex.rivera@example.com | +1 555 010 4477 | linkedin.com/in/example-alex-rivera | visual.example.com
+
+SUMMARY
+Product designer with 8 years across healthcare and civic software. Works end to end,
+from research through shipped UI, and is comfortable owning a surface solo on a small team.
+
+EXPERIENCE
+
+Northgate Health — Senior Product Designer
+Seattle, WA | 2021 - present
+- Redesigned the front-desk check-in flow used by 300+ clinics; cut average check-in
+  time from 4 minutes to under 90 seconds in usability testing.
+- Built and maintained the team's first shared Figma component library (60+ components),
+  adopted by 4 product squads.
+- Ran fortnightly moderated sessions with front-desk staff; turned findings into a
+  prioritized backlog the PM used for two quarters of roadmap.
+
+Cascade Civic Labs — Product Designer
+Remote | 2018 - 2021
+- Designed a benefits-eligibility screener for a state agency; raised completion rate
+  from 52% to 78% after three rounds of testing with low-literacy users.
+- Owned the design system and accessibility pass (WCAG 2.1 AA) for four public tools.
+
+Bright Harbor Studio — UX Designer
+Portland, OR | 2016 - 2018
+- Delivered end-to-end design for 12 client web apps, mostly small non-profits.
+- Introduced a lightweight research practice (5-user tests) that clients kept using.
+
+PROJECTS
+
+Transit Board (personal) — transitboard.example.com
+- Real-time arrivals display for a local bus route; 400 weekly users, built solo in
+  React with an open transit API.
+
+EDUCATION
+University of Washington — B.Des, Interaction Design, 2016. GPA 3.8.
+
+SKILLS
+Figma, prototyping, design systems, usability testing, accessibility (WCAG), HTML/CSS,
+React basics, service blueprinting, workshop facilitation

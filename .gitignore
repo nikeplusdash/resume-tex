@@ -1,0 +1,45 @@
+# ── Your own data (anchored to repo root so examples/ stays tracked) ──
+/constant.json
+/content.json
+/content.*.json
+# Merge snapshots holding the same private data
+/content.json.*.bak
+/constant.json.*.bak
+/impact-metrics.md
+/recommendations.json
+/coursework.json
+
+# ── Archived pre-cleanup files (see archive/README.md) ──
+/archive/
+
+# ── Personal artifacts ──
+/*.pdf
+/*.jpg
+/Official Transcript*
+/SSR_TSRPT_SC*
+
+# ── Generated output ──
+/applications/
+/bench-runs/
+/bench-jds/
+/extra/
+doc_output.*
+cover-letter-output.tex
+
+# ── LaTeX build artifacts ──
+*.aux
+*.log
+*.out
+*.synctex.gz
+texput.log
+
+# ── Tooling scratch ──
+.superpowers/
+.claude/worktrees/
+.resume_history
+.resume_shell.log
+__pycache__/
+.pytest_cache/
+venv/
+.venv/
+.DS_Store
